@@ -272,7 +272,7 @@ function checkout() {
     
     const total = document.getElementById('total').textContent;
     const message = `I would like to purchase items worth ${total} from Baahumanyu One Gram Jewellery.`;
-    const phoneNumber = '919100000000'; // WhatsApp number
+    const phoneNumber = '918790444627'; // WhatsApp number
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
 }
